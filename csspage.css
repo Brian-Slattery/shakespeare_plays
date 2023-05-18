@@ -1,0 +1,27 @@
+/*all pages*/
+* {background-color:burlywood ;}
+/* index css*/ 
+#header {color:rgb(236, 229, 229); background-color:rgb(94, 33, 33) ;}
+
+#myphoto{
+    height:auto;
+    width: 500px;
+}
+.links {color:rgb(236, 229, 229); background-color:rgb(94, 33, 33)}
+/*henry 5 css*/
+#hen5page strong {color: rgb(236, 229, 229);background-color: rgb(94, 33, 33);}
+.henhead, #hen5page a {color:goldenrod ; background-color: rgb(43, 70, 149);}
+.maintext {color:rgb(236, 229, 229) ; background-color: rgb(94, 33, 33);}
+/*Caesar CSS*/
+#caesarpage strong,#caesarpage p {color: rgb(94, 33, 33); background-color: goldenrod;}
+#CAEhead {color: goldenrod; background-color: rgb(94, 33, 33);}
+#CAEimg {height: auto; width:500px ;}
+.CAEtitles {color: goldenrod; background-color: rgb(94, 33, 33);}
+#caesarpage .home{color: goldenrod; background-color: rgb(94, 33, 33);}
+/*richard3 CSS*/
+#richard3page img {height: auto; width: 500px;}
+#richard3page h2, #richard3page h1, #richard3page a {color: rgb(94, 33, 33); background-color: rgb(236, 229, 229);}
+#richard3page p, #richard3page strong, #richard3page b {color: rgb(236, 229, 229); background-color: rgb(94, 33, 33);}
+/*richard2 CSS*/
+#Richard2page h1, #Richard2page h2,#Richard2page a {color: rgb(208, 208, 97); background-color: rgb(142, 51, 58) ;}
+#Richard2page img {height: auto; width: 500px;}
