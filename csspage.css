@@ -275,9 +275,78 @@ background-color: rgb(192, 149, 69);}
     background-color: rgb(192, 149, 69);}
   
 /*richard3 CSS*/
-#richard3page img {height: auto; width: 500px;}
-#richard3page h2, #richard3page h1, #richard3page a {color: rgb(94, 33, 33); background-color: rgb(236, 229, 229);}
-#richard3page p, #richard3page strong, #richard3page b {color: rgb(236, 229, 229); background-color: rgb(94, 33, 33);}
-/*richard2 CSS*/
+#richard3page {
+    background-color: rgb(124, 30, 25);}
+
+#richard3tophead{
+    background-color: rgb(56, 20, 18);
+    color: rgb(236, 229, 229);
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    margin-top:auto ;
+    font-size: 50px;}
+
+#richard3img{
+ display: block;
+ width: 500px;
+ height: fit-content;
+ margin: 0 auto;
+ margin-bottom: 30px;
+ border: 10px solid rgb(56, 20, 18);}
+
+.r3Qhead{
+    background-color: rgb(56, 20, 18);
+    color: rgb(236, 229, 229);
+    text-align: center;
+    font-size: 30px;
+    width: 600px;
+    margin: auto;}
+
+ .r3main{
+    color: rgb(236, 229, 229);
+    text-align: center;
+    width: 500px;
+    font-size: 30px;
+    margin: auto;
+    border-bottom: 2px solid rgb(236, 229, 229);}
+
+#r3buttonlink{
+    color: rgb(236, 229, 229);
+    display: inline-block;
+    text-decoration: none;}
+
+#r3button{
+    background-color: rgb(56, 20, 18);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    bottom: -1100px;
+    right: 530px;}
+
+#r3buttonlink :hover{
+    background-color: rgb(138, 50, 50);}
+
+#r3sidebar{
+    list-style-type: none;
+    position: absolute;
+    top: 230px;
+    right:20px;
+    margin: 10px;} 
+
+.r3links{
+    display: block;
+    color: rgb(236, 229, 229);
+    background-color: rgb(56, 20, 18);
+    font-size: 30px;
+    padding: 20px;
+    border-left: 2px solid rgb(236, 229, 229);
+    text-decoration: none;}
+
+#r3sidebar li :hover{
+    background-color: rgb(138, 50, 50);}
+    /*richard2 CSS*/
 #Richard2page h1, #Richard2page h2,#Richard2page a {color: rgb(208, 208, 97); background-color: rgb(142, 51, 58) ;}
 #Richard2page img {height: auto; width: 500px;}
