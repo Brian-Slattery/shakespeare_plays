@@ -182,9 +182,6 @@ position: absolute;
     margin: 10px;
     list-style-type: none;}
 
-.hensidebar li {
-    text-decoration: none;}
-
 .henlinks{
     display: block;
     color:rgb(236, 229, 229);
@@ -198,13 +195,85 @@ position: absolute;
     background-color: rgb(192, 149, 69);}
 
 
-
 /*Caesar CSS*/
-#caesarpage strong,#caesarpage p {color: rgb(94, 33, 33); background-color: goldenrod;}
-#CAEhead {color: goldenrod; background-color: rgb(94, 33, 33);}
-#CAEimg {height: auto; width:500px ;}
-.CAEtitles {color: goldenrod; background-color: rgb(94, 33, 33);}
-#caesarpage .home{color: goldenrod; background-color: rgb(94, 33, 33);}
+#caesarpage{
+    background-color: rgb(138, 50, 50);}
+
+#CAEhead{
+background-color: rgb(178, 130, 40);
+color: rgb(236, 229, 229);
+width: 100%;
+height: 75px;
+margin-top: auto;
+font-size: 50px;
+text-align: center;}
+
+#CAEimg{
+ display: block;
+ width: 500px;
+ height: fit-content;
+ margin: 0 auto;
+ margin-bottom: 30px;
+ border: 10px solid rgb(178, 130, 40);}
+
+.CAEtitles{
+    color: rgb(236, 229, 229);
+    background-color: rgb(178, 130, 40);
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;}
+
+.caemaintext{
+    color: rgb(236, 229, 229);
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(236, 229, 229);}
+
+#caebuttonlink{
+color: rgb(236, 229, 229);
+display: inline;
+text-decoration: none;}
+
+#caebuttonlink :hover{
+background-color: rgb(192, 149, 69);}
+
+#caenextbutton{
+    color: rgb(236, 229, 229);
+    background-color: rgb(178, 130, 40);
+    width: 200px;
+    height: auto;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+     position: absolute;
+        bottom: -620px;
+        right: 530px;
+        margin-bottom: 0px;}
+
+.caesidebar{
+    position: absolute;
+    top: 230px;
+    right:20px;
+    margin: 10px;
+    list-style-type: none;}
+
+.caelinks{
+    display: block;
+    color: rgb(236, 229, 229);
+    background-color: rgb(178, 130, 40);
+    font-size: 30px;
+    padding: 20px;
+    border-left: 2px solid rgb(236, 229, 229);
+    text-decoration: none;}
+
+.caesidebar li :hover{
+    background-color: rgb(192, 149, 69);}
+  
 /*richard3 CSS*/
 #richard3page img {height: auto; width: 500px;}
 #richard3page h2, #richard3page h1, #richard3page a {color: rgb(94, 33, 33); background-color: rgb(236, 229, 229);}
